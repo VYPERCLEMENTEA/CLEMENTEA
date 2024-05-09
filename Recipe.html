@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+</head>
+<header>
+    
+    <nav class="navigation">
+        <a href="CLEMENTEAA.html">Home</a>
+        <a href="About website.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Location website.html">Location</a>
+        <a href="Recipe.html">Recipe</a>       
+    </nav>
+</header>
+    <body>
+        <div class="grid-container">
+            <div><a href="LAVENDER.html"><img class="img" src="LAVENDER.png"></a></div>
+            <div><a href="ROSE.html"><img class="img" src="ROSE.png"></a></div>
+            <div><a href="HONEY.html"><img class="img" src="HONEY.png"></a></div>
+            <div><a href="MATCHA.html"><img class="img" src="MATCHA.png"></a></div>
+            <div><a href="CHARCOAL.html"><img class="img" src="CHARCOAL.png"></a></div>
+            <div><a href="THAI.html"><img class="img" src="THAI.png"></a></div>
+            <div><a href="MINT.html"><img class="img" src="MINT.png"></a></div>
+            <div><a href="BLUEBERRY.html"><img class="img" src="BLUEBERRY.png"></a></div>
+            <div><a href="RED VELVET.html"><img class="img" src="RED VELVET.png"></a></div>
+            <div><a href="CARAMEL.html"><img class="img" src="CARAMEL.png"></a></div>
+            <div><a href="COOKIES.html"><img class="img" src="COOKIES.png"></a></div>
+            <div><a href="PANDAN.html"><img class="img" src="PANDAN.png"></a></div>         
+          </div>
+    </body> 
+    <footer>
+    &copy; 2024 CLEMENTEA. All rights reserved.      
+    </footer> 
+</html>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.CLEMENTEA{
+    color: lightpink;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 105vh;
+    background: url(BLUE.png)no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    position: fixed;
+    color: lightpink;
+    bottom: 0;
+    width: 100%;
+    text-align: center;  
+}
+.img{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  border-style: double;
+  border: pink;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  background-color: transparent;
+  padding: 40px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+}
+.grid-container  div {
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 100px;
+  background: url(BLACK.png)no-repeat;
+}
+
+</style>

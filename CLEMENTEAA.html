@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+</head>
+
+<header>
+    <center>
+    <nav class="navigation">
+        <a href="CLEMENTEAA.html">Home</a>
+        <a href="About website.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Location website.html">Location</a>
+        <a href="Recipe.html">Recipe</a>
+    </center>  
+    </nav>
+</header> 
+<body>
+    <div class="background-video">
+      <video autoplay muted loop id="bg-video">
+        <source src="HOMEVID3.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+      </div>
+    </div>
+  </body> 
+<footer>
+    <p>&copy; 2024 CLEMENTEA. All rights reserved.</p>
+</footer> 
+</html>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.CLEMENTEA{
+    color: lightpink;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.background-video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  transform: translate(-50%, -50%);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    position: fixed;
+    color: lightpink;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+</style>
+   

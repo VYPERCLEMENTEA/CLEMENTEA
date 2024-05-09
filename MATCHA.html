@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <nav class="navigation">
+            <a href="CLEMENTEAA.html">Home</a>
+            <a href="About website.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Location website.html">Location</a>
+            <a href="Recipe.html">Recipe</a>
+        </nav>
+    </header> 
+    <body>  
+  <center><img class="img" src="MATCHA.png" alt="my picture"></center>   
+  <center>
+    <h1>MATCHA MILK TEA</h1>
+    <h1>Ingredients:</h1>
+    <h2>1 teaspoon matcha green tea powder</h2>
+    <h2>1/4 cup hot water (not boiling, about 175°F or 80°C)</h2>
+    <h2>3/4 cup milk (dairy or any plant-based alternative)</h2>
+    <h2>Ice cubes (optional, for serving cold)</h2>
+    <h2>Sweetener (honey, sugar, or syrup) to taste</h2>
+    <h1>PROCEDURE</h1>  
+    <h2>Dissolve Matcha:</h2> 
+    <h3>Sift the matcha powder into a cup to avoid clumps. Add the hot water and <br>whisk vigorously in a zigzag motion until the matcha is fully <br>dissolved and there’s a light froth on top.</h3>
+    <h2>Heat Milk:</h2>
+    <h3>If you prefer your tea warm, heat the milk in a small saucepan <br>just until hot but not boiling. For a cold drink, skip heating the milk.</h3>
+    <h2>Combine:</h2>
+    <h3>Add the milk to the dissolved matcha. <br>Stir well to combine everything evenly.</h3>
+    <h2>Sweeten:</h2>
+    <h3>Add your preferred sweetener to taste and stir until dissolved.</h3>
+    <h2>Serve:</h2>
+    <h3>For a hot beverage, serve as is. For an iced version,<br> fill a glass with ice cubes and pour the matcha milk tea over the ice.</h3> 
+</body>
+</center>
+<footer>
+  <p>&copy; 2024 CLEMENTEA. All rights reserved.</p>
+</footer> 
+               
+</html>
+<style>
+.img{
+width: 25%;
+height: 25%;
+border-radius: 200px;
+margin-top: 5%;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-decoration: underline;
+}
+body {
+background: url(PLAIN.png)no-repeat;
+background-size: cover;
+color: green;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    color: lightpink;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+   text-align: center;
+}
+</style>

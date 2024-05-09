@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+</head>
+
+<header>
+    
+    <nav class="navigation">
+        <a href="CLEMENTEAA.html">Home</a>
+        <a href="About website.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Location website.html">Location</a>
+        <a href="Order here.html">Order Here</a>
+    </nav>
+</header>
+<footer>
+    <p>&copy; 2024 CLEMENTEA. All rights reserved.</p>
+</footer> 
+</html>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.CLEMENTEA{
+    color: lightpink;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 105vh;
+    background: url(CLEMENTEA2.png)no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    position: fixed;
+    color: lightpink;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+   

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <nav class="navigation">
+            <a href="CLEMENTEAA.html">Home</a>
+            <a href="About website.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Location website.html">Location</a>
+            <a href="Recipe.html">Recipe</a>
+        </nav>
+    </header> 
+    <body>  
+  <center><img class="img" src="BLUEBERRY.png" alt="my picture"></center>   
+  <h1>BLUEBERRY MILK TEA</h1>
+  <h1>Ingredients:</h1>
+  <h2>1 cup water</h2>
+  <h2>1-2 teaspoons black tea leaves (or 1-2 tea bags)</h2>
+  <h2>1/2 cup fresh or frozen blueberries</h2>
+  <h2>1 tablespoon sugar (adjust to taste)</h2>
+  <h2>1 cup milk (dairy or plant-based)</h2>
+  <h2>Ice cubes (optional, for serving cold)</h2>
+  <h1>PROCEDURE</h1>  
+  <h2>Make Blueberry Syrup:</h2> 
+  <h3>In a small saucepan, combine the blueberries and sugar with <br> a small amount of water (about 2 tablespoons).  Heat over medium until <br>the blueberries start to break down and form a syrup, about 5-7 minutes. <br>You can mash the berries to release more flavor.</h3>
+  <h2>Boil Water and Steep Tea:</h2>
+  <h3>Meanwhile, bring 1 cup of water to a boil. Add the tea leaves and <br> steep for about 3-5 minutes. Remove the tea leaves or bags.</h3>
+  <h2>Combine Tea and Blueberry Syrup:</h2>
+  <h3>Strain the blueberry syrup to remove the  <br>solids and mix the syrup with the brewed tea.</h3>
+  <h2>Add Milk:</h2>
+  <h3>Add the milk to the blueberry tea mixture. You can adjust <br>the amount of milk based on your preference for creaminess.</h3>
+  <h2>Serve:</h2>
+  <h3>For hot blueberry milk tea, serve as is. For an iced version, <br> let the mixture cool slightly, then pour over ice in a glass.</h3> 
+</body>
+<footer>
+  <p>&copy; 2024 CLEMENTEA. All rights reserved.</p>
+</footer> 
+               
+</html>
+<style>
+.img{
+width: 25%;
+height: 25%;
+border-radius: 200px;
+margin-top: 5%;
+}
+body {
+background: url(PLAIN.png)no-repeat;
+background-size: cover;
+color: blue;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    color: lightpink;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+   text-align: center;
+}
+</style>

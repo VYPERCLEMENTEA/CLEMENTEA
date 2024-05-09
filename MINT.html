@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <nav class="navigation">
+            <a href="CLEMENTEAA.html">Home</a>
+            <a href="About website.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Location website.html">Location</a>
+            <a href="Recipe.html">Recipe</a>
+        </nav>
+    </header> 
+    <body>  
+  <center><img class="img" src="MINT.png" alt="my picture"></center>   
+    <h1>MINT MILK TEA</h1>
+    <h1>Ingredients:</h1>
+    <h2>1 cup water</h2>
+    <h2>1-2 teaspoons black tea leaves (or 1-2 tea bags)</h2>
+    <h2>A handful of fresh mint leaves (or 1-2 teaspoons dried mint)</h2>
+    <h2>1 cup milk (dairy or plant-based)</h2>
+    <h2>Sugar or honey to taste</h2>
+    <h1>PROCEDURE</h1>  
+    <h2>Boil Water:</h2> 
+    <h3>Bring water to a boil in a saucepan.</h3>
+    <h2>Steep Tea and Mint:</h2>
+    <h3>Add the black tea leaves and fresh mint leaves to the boiling water. <br>Reduce the heat and let it simmer for about 3-5 minutes. <br>The longer you steep, the stronger the mint flavor.</h3>
+    <h2>Add Milk:</h2>
+    <h3>Pour in the milk and bring the mixture back to <br> a slight boil, then turn off the heat.</h3>
+    <h2>Sweeten:</h2>
+    <h3>Add sugar or honey according to your taste <br> preference and stir until dissolved.</h3>
+    <h2>Strain and Serve:</h2>
+    <h3>Strain the tea into a cup to remove the leaves.  <br>Serve hot for a cozy beverage or chill it for a refreshing iced tea.</h3> 
+</body>
+<footer>
+  <p>&copy; 2024 CLEMENTEA. All rights reserved.</p>
+</footer> 
+               
+</html>
+<style>
+.img{
+width: 25%;
+height: 25%;
+border-radius: 200px;
+margin-top: 5%;
+}
+body {
+background: url(PLAIN.png)no-repeat;
+background-size: cover;
+color: mediumspringgreen;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    color: lightpink;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+   text-align: center;
+}
+</style>

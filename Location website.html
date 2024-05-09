@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>  
+    <nav class="navigation">
+        <a href="CLEMENTEAA.html">Home</a>
+        <a href="About website.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Location website.html">Location</a>
+        <a href="Recipe.html">Recipe</a>
+        
+    </nav>
+</header>
+<body>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d956.8408719835026!2d120.58001341721122!3d16.406355690574042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a17360f529e3%3A0xf996ad59c4807fe5!2sMARLON%20SAPINO%2C%20Asin%20Rd%2C%20Baguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1714115837508!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+<footer>
+    <p>&copy; 2024 CLEMENTEA. All rights reserved.</p>
+</footer> 
+</html>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.CLEMENTEA{
+    color: lightpink;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 105vh;
+    background: url(LOCATIONPIC.png)no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-image: fill;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: transparent;
+    font-size: 20px;
+}
+.navigation a{
+    position:relative;
+    font-size: 1.1em;
+    color: pink;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: pink;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+footer {
+    background-color:transparent;
+    position: fixed;
+    color: lightpink;
+    bottom: 0%;
+    width: 100%;
+    left: 0;
+    text-align: center;  
+}
+    </style>
